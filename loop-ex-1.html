@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>1~100 합</title>
+</head>
+
+<body>
+    <h1>1에서 100까지 합</h1>
+    <script>
+        var add = 0;
+        for (var n = 1; n <= 100; n++) {
+            add += n; // add=add+n 과 같음
+            console.log(n, add);
+        }
+        document.write("합은 " + add + "입니다.");
+
+        /*  var add = 0;
+            var n = 1;
+            while (n <= 100) {
+                add = add + n;
+                console.log(n, add);
+                n++;
+            }
+            document.write("합은 " + add + "입니다."); */
+    </script>
+</body>
+
+</html>
