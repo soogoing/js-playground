@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>입력한 수의 갯수와 합</title>
+</head>
+
+<body>
+    <h1>입력한 수의 갯수와 합</h1>
+    <script>
+        var sum = 0;
+        var count = 0
+        for (var n = -1; n != 0; count++) {
+            n = Number(prompt("숫자를 입력해주세요. (종료하려면 0 입력)"));
+            sum += n;
+        }
+        document.write("입력한 숫자 " + count + "개의 합은 " + sum + "입니다.");
+
+        /* var sum = 0;
+        var count = 0;
+        var n = -1;
+        while (n != 0) {
+            n = Number(prompt("숫자를 입력해주세요. (종료하려면 0 입력)"));
+            count++;
+            sum += n;
+        }
+        document.write("입력한 숫자 " + count + "개의 합은 " + sum + "입니다.");*/
+    </script>
+</body>
+
+</html>
